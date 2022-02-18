@@ -24,17 +24,17 @@ etcd:
   product_key: zxfyazzaa
 
 http:
-  host: 114.67.98.210
+  host: localhost
 
 mysql:
-  host: 114.67.98.210
+  host: localhost
   port: 3396
   user: root
   pwd: root_test
   db: user
 
 trace:
-  host: 114.67.98.210
+  host: localhost
   port: 9411
   url: /api/v2/spans
 
