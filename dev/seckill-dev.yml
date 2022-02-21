@@ -17,7 +17,7 @@ service:
 
 redis:
   host: localhost
-  password: 6378
+  password: 6379
   db: 0
   proxy2layer_queue_name: name
   ip_black_list_hash: 12

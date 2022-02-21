@@ -21,8 +21,8 @@ service:
   SendToHandleChanTimeout: 500
   TokenPassWd: go
 redis:
-  host: 39.98.179.73:6379
-  password: 082203
+  host: localhost:6379
+  password: ""
   db: 0
   Proxy2layerQueueName: proxy2layer
   Layer2proxyQueueName: Layer2proxy
@@ -43,8 +43,8 @@ mysql:
   host: localhost
   port: 3396
   user: root
-  pwd: root_test
-  db: sk-admin
+  pwd: test
+  db: seckill
 
 trace:
   host: localhost
